@@ -15,6 +15,7 @@ public class StudentController {
      @RequestMapping("/student")
      public List<Student> requestMethodName() {
           List<Student> students = new ArrayList<Student>();
+          
           students.add(new Student("John","Welcome John!"));
          students.add(new Student("Jane","Welcome Jane!"));
 
