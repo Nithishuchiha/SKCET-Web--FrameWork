@@ -9,6 +9,7 @@ public class Book {
      private String author;
 
      @JsonFormat(shape = JsonFormat.Shape.STRING, pattern = "yyyy-MM-dd")
+     
      private Date publicationDate;
      public Book(String title, String author, Date publicationDate) {
           this.title = title;
