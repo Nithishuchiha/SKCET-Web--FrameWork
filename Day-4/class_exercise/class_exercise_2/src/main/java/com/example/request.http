@@ -7,10 +7,10 @@ POST http://localhost:8080/api/job
 Content-Type: application/json
 
 {
-     "jobId":1,
-     "jobTitle":"developer",
+     "jobId":5,
+     "jobTitle":"Backend developer",
      "minSalary":50000,
-     "jobDescription":"Warning: ",
+     "jobDescription":"nikil",
      "maxSalary":1000000
 }
 

@@ -1,5 +1,7 @@
 package com.example.class_exercise_2.model;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
 
@@ -8,6 +10,7 @@ public class Job {
 
      @Id
      private int jobId;
+     @JsonProperty(value = "Name")
      private String jobTitle;
      private int minSalary;
      private String jobDescription;
