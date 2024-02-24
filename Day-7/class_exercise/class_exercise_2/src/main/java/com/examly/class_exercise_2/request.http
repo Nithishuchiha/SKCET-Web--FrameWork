@@ -1,0 +1,22 @@
+### GET ALL DETAILS OF A USER
+
+GET http://localhost:8080/api/course
+
+### POST A NEW USER
+POST http://localhost:8080/api/course
+Content-Type: application/json
+
+{
+     "courseId":123,
+     "courseName":"InformationTechnology",
+     "creditHours":9,
+     "instructor":"Nithish",
+     "preRequistes":"jjnjn",
+     "maxCapacity":10,
+     "enrolldStudnts":"fjfsj"
+}
+
+### GET BY AGE
+GET http://localhost:8080/api/course/InformationTechnology
+
+  
