@@ -7,8 +7,8 @@ POST http://localhost:8080/api/course
 Content-Type: application/json
 
 {
-     "courseId":123,
-     "courseName":"InformationTechnology",
+     "courseId":124,
+     "courseName":"Information",
      "creditHours":9,
      "instructor":"Nithish",
      "preRequistes":"jjnjn",
@@ -17,6 +17,4 @@ Content-Type: application/json
 }
 
 ### GET BY AGE
-GET http://localhost:8080/api/course/InformationTechnology
-
-  
+GET http://localhost:8080/api/course/Information
